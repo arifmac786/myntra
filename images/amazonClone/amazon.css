@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+.navbar{
+   height: 60px;
+   background-color:#0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    background-color: #0f1111;
+    
+    
+}
+ 
+
+.nav-logo img{
+    height: 50px;
+    width: 100px; 
+
+}
+.border{
+    border: 2px solid transparent;
+padding: 5px;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-add{
+    
+    height: 50px;
+    width: 100px;
+}
+.nav-loc{
+    display: flex;
+
+}
+.nav-add p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.nav-loc h3{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.nav-loc i{
+    margin: 0 2px 0 0 ;
+}
+.nav-search{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.option select{
+    height: 40px;
+    width: 60px;
+    border: none;
+}
+.nav-search input{
+    height: 40px;
+    width: 80%;
+    border: none;
+    
+}
+.search-icon i{
+     
+    font-size: 22px;
+ text-align: center;
+
+}
+.search-icon{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(191, 121, 29);
+    border: none;
+
+}
+.nav-link{
+    height: 50px;
+    width: 140px;
+}
+.nav-link .one{
+    font-size: 12px;
+}
+.nav-link .two{
+    font-size: 14px;
+    font-weight: 700;
+}
+.bgtransfer{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.nav-order{
+    height: 50px;
+    width: 77px;
+}
+.nav-order .one{
+    font-size: 12px;
+}
+.nav-order .two{
+    font-size: 15px;
+    font-weight: 700;
+}
+ .cart{
+    height: 50px;
+    width: 80px;
+    font-weight: 700;
+
+ }
+ .cart i{
+    font-size: 25px;
+ }
+ .list-nav{
+    height: 39px;
+    background-color:#2b6484 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .menu{
+    width: 58px;
+ }
+ .itemlist{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+ }
+ .hero-section{
+    background-image: url("hero.jpg");
+    height: 450px;
+    width: 100%;
+background-size: cover;
+ }
+ .items-section{
+    width: 100%;
+    height: 880px;
+    /* border: 2px solid black; */
+     position: absolute;
+     /* background-color: rgba(240, 239, 239,.8); */
+    top: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+ }
+ .main{
+    position: relative;
+ }
+ .box{
+    height: 420px;
+    width: 326px;
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 20px -12px 20px rgb(225, 223, 223);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+
+
+ }
+
+ .box img{
+    height: 65%;
+    width: 80%;
+margin-top: 18px;
+ }
+ .box h2{
+    font-size: 21px;
+    margin-top: 18px;
+ }
+ .box p{
+    margin-top: 18px;
+    text-decoration: none;
+    color: blue;
+ }
+
+ footer{
+    height: 800px;
+    width: 100%;
+    background-color: #2b6484;
+border: 2px solid black;
+    position: absolute;
+    top: 180%;
+ }
+ .back-to-top{
+    height: 50px;
+    width: 100%;
+    background-color: #2b6484 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .panel{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#0f1111 ;
+ }
+ .content{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid white; */
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 15px;
+ }
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 80%;
+            /* border: 2px solid white; */
+            gap: 10px;
+            margin-top: 14px;
+       
+}
+
+ul a{
+    color: #dddddd;
+    text-decoration: none;
+    margin-left: 67px;
+    font-size: 15px;
+}
+.seclogo{
+    height: 80px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border-top: 1px solid #dddddd;
+}
+.extra{
+    height: 80px;
+    width: 100%;
+    background-color: #2b6484;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 13px;    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.o{
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.o a{
+    color: #dddddd;
+    text-decoration: none;
+}
